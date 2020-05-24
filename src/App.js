@@ -1,4 +1,24 @@
-import React from 'react'
-import ReactDOM from "react-dom"
+import React from "react"
 
-ReactDOM.render(<h1>HIII<h1></h1>,document.getElementById('root'))
+function App() {
+  return (
+    <div>
+       <input type="checkbox" />
+      <p>Sleep </p>
+
+      <input type="checkbox" />
+      <p>Eat </p>
+
+      <input type="checkbox" />
+      <p>Repeat </p>
+
+      <input type="checkbox" />
+      <p>Sleep Again </p>
+
+      
+      
+    </div>
+  )
+}
+
+export default App
