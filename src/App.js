@@ -1,21 +1,11 @@
 import React from "react"
-
+import Joke from "./Joke"
 function App() {
   return (
     <div>
-       <input type="checkbox" />
-      <p>Sleep </p>
+       <Joke  content = {{question : "who are you" , answer : "no one"} } />
 
-      <input type="checkbox" />
-      <p>Eat </p>
-
-      <input type="checkbox" />
-      <p>Repeat </p>
-
-      <input type="checkbox" />
-      <p>Sleep Again </p>
-
-      
+   
       
     </div>
   )
